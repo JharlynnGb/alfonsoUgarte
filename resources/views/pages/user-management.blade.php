@@ -22,6 +22,10 @@
                                 <tr>
                                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nombre
                                     </th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Apellido
+                                    </th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Correo Electronico
+                                    </th>
                                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Rol
                                     </th>
                                     <th
@@ -40,15 +44,21 @@
                                                 <img src="./img/team-3.jpg" class="avatar me-3" alt="image">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="mb-0 text-sm">Jharlynn</h6>
+                                                <h6 class="mb-0 text-sm">{{ auth()->user()->firstname ?? 'Nombre' }}</h6>
                                             </div>
                                         </div>
+                                    </td>
+                                    <td class="align-middle justify-content-center text-sm">
+                                        <p class="text-sm font-weight-bold mb-0">{{ auth()->user()->lastname ?? 'Lastname' }}</p>
+                                    </td>
+                                    <td class="align-middle justify-content-center text-sm">
+                                        <p class="text-sm font-weight-bold mb-0">{{ auth()->user()->email ?? 'Email' }}</p>
                                     </td>
                                     <td class="text-sm">
                                         <span class="badge badge-sm bg-gradient-success">admin</span>
                                     </td>
                                     <td class="align-middle text-center text-sm">
-                                        <p class="text-sm font-weight-bold mb-0">22/03/2022</p>
+                                        <p class="text-sm font-weight-bold mb-0">{{ auth()->user()->created_at ?? 'Created_at' }}</p>
                                     </td>
                                     <td class="align-middle text-end">
                                         <div class="d-flex px-1 py-1 justify-content-center align-items-center">
@@ -61,7 +71,8 @@
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
+                                
+                                <!-- <tr>
                                     <td>
                                         <div class="d-flex px-3 py-1">
                                             <div>
@@ -81,10 +92,10 @@
                                     <td class="align-middle text-end">
                                         <div class="d-flex px-1 py-1 justify-content-center align-items-center">
                                             <button type="button" class="btn btn-info btn-xs me-2">
-                                                <i class="fas fa-edit"></i> <!-- Icono de edición -->
+                                                <i class="fas fa-edit"></i> 
                                             </button>
                                             <button type="button" class="btn btn-danger btn-xs">
-                                                <i class="fas fa-trash-alt"></i> <!-- Icono de eliminación -->
+                                                <i class="fas fa-trash-alt"></i> 
                                             </button>
                                         </div>
                                     </td>
@@ -109,14 +120,14 @@
                                     <td class="align-middle text-end">
                                         <div class="d-flex px-1 py-1 justify-content-center align-items-center">
                                             <button type="button" class="btn btn-info btn-xs me-2">
-                                                <i class="fas fa-edit"></i> <!-- Icono de edición -->
+                                                <i class="fas fa-edit"></i> 
                                             </button>
                                             <button type="button" class="btn btn-danger btn-xs">
-                                                <i class="fas fa-trash-alt"></i> <!-- Icono de eliminación -->
+                                                <i class="fas fa-trash-alt"></i> 
                                             </button>
                                         </div>
                                     </td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                     </div>

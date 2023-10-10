@@ -1,7 +1,7 @@
 @extends('layouts.app', ['class' => 'g-sidenav-show bg-gray-100'])
 
 @section('content')
-    @include('layouts.navbars.auth.topnav', ['title' => 'Dashboard'])
+    @include('layouts.navbars.auth.topnav', ['title' => 'Inicio'])
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
@@ -10,14 +10,16 @@
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Today's Money</p>
-                                    <h5 class="font-weight-bolder">
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Todos los Usuarios</p>
+                                    <!-- <h5 class="font-weight-bolder">
                                         $53,000
-                                    </h5>
+                                    </h5> -->
+                                    <!-- NUMERO DE TODOS LOS USUARIOS -->
                                     <p class="mb-0">
                                         <span class="text-success text-sm font-weight-bolder">+55%</span>
                                         since yesterday
                                     </p>
+                                    <!-- AND NUMERO DE TODOS LOS USUARIOS -->
                                 </div>
                             </div>
                             <div class="col-4 text-end">
@@ -29,20 +31,23 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
                 <div class="card">
                     <div class="card-body p-3">
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Today's Users</p>
-                                    <h5 class="font-weight-bolder">
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Administradores</p>
+                                    <!-- <h5 class="font-weight-bolder">
                                         2,300
-                                    </h5>
+                                    </h5> -->
+                                    <!-- NUMERO DE TODOS LOS USUARIOS -->
                                     <p class="mb-0">
                                         <span class="text-success text-sm font-weight-bolder">+3%</span>
                                         since last week
                                     </p>
+                                    <!-- AND NUMERO DE TODOS LOS USUARIOS -->
                                 </div>
                             </div>
                             <div class="col-4 text-end">
@@ -54,20 +59,23 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
                 <div class="card">
                     <div class="card-body p-3">
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">New Clients</p>
-                                    <h5 class="font-weight-bolder">
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Docentes</p>
+                                    <!-- <h5 class="font-weight-bolder">
                                         +3,462
-                                    </h5>
+                                    </h5> -->
+                                    <!-- NUMERO DE TODOS LOS USUARIOS -->
                                     <p class="mb-0">
                                         <span class="text-danger text-sm font-weight-bolder">-2%</span>
-                                        since last quarter
+                                        since last 
                                     </p>
+                                    <!-- AND NUMERO DE TODOS LOS USUARIOS -->
                                 </div>
                             </div>
                             <div class="col-4 text-end">
@@ -79,19 +87,22 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-xl-3 col-sm-6">
                 <div class="card">
                     <div class="card-body p-3">
                         <div class="row">
                             <div class="col-8">
                                 <div class="numbers">
-                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Sales</p>
-                                    <h5 class="font-weight-bolder">
+                                    <p class="text-sm mb-0 text-uppercase font-weight-bold">Estudiantes</p>
+                                    <!-- <h5 class="font-weight-bolder">
                                         $103,430
-                                    </h5>
+                                    </h5> -->
+                                    <!-- NUMERO DE TODOS LOS USUARIOS -->
                                     <p class="mb-0">
                                         <span class="text-success text-sm font-weight-bolder">+5%</span> than last month
                                     </p>
+                                    <!-- AND NUMERO DE TODOS LOS USUARIOS -->
                                 </div>
                             </div>
                             <div class="col-4 text-end">
@@ -104,8 +115,9 @@
                 </div>
             </div>
         </div>
+        
         <div class="row mt-4">
-            <div class="col-lg-7 mb-lg-0 mb-4">
+            <!-- <div class="col-lg-7 mb-lg-0 mb-4">
                 <div class="card z-index-2 h-100">
                     <div class="card-header pb-0 pt-3 bg-transparent">
                         <h6 class="text-capitalize">Sales overview</h6>
@@ -120,11 +132,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-lg-5">
                 <div class="card">
                     <div class="card-header pb-0 p-3">
-                        <h6 class="mb-0">Categories</h6>
+                        <h6 class="mb-0">Total de alumnos</h6>
                     </div>
                     <div class="card-body p-3">
                         <ul class="list-group">
@@ -134,16 +146,15 @@
                                         <i class="ni ni-mobile-button text-white opacity-10"></i>
                                     </div>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">Devices</h6>
-                                        <span class="text-xs">250 in stock, <span class="font-weight-bold">346+
-                                                sold</span></span>
+                                        <h6 class="mb-1 text-dark text-sm">Aprovados</h6>
+                                        <span class="text-xs"><span class="font-weight-bold">Total: #50</span></span>
                                     </div>
                                 </div>
-                                <div class="d-flex">
+                                <!-- <div class="d-flex">
                                     <button
                                         class="btn btn-link btn-icon-only btn-rounded btn-sm text-dark icon-move-right my-auto"><i
                                             class="ni ni-bold-right" aria-hidden="true"></i></button>
-                                </div>
+                                </div> -->
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
@@ -151,18 +162,18 @@
                                         <i class="ni ni-tag text-white opacity-10"></i>
                                     </div>
                                     <div class="d-flex flex-column">
-                                        <h6 class="mb-1 text-dark text-sm">Tickets</h6>
-                                        <span class="text-xs">123 closed, <span class="font-weight-bold">15
-                                                open</span></span>
+                                        <h6 class="mb-1 text-dark text-sm">Desaprovados</h6>
+                                        <span class="text-xs"><span class="font-weight-bold">Total: #50</span></span>
                                     </div>
                                 </div>
-                                <div class="d-flex">
+                                <!-- <div class="d-flex">
                                     <button
                                         class="btn btn-link btn-icon-only btn-rounded btn-sm text-dark icon-move-right my-auto"><i
                                             class="ni ni-bold-right" aria-hidden="true"></i></button>
-                                </div>
+                                </div> -->
                             </li>
-                            <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
+
+                            <!-- <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
                                     <div class="icon icon-shape icon-sm me-3 bg-gradient-dark shadow text-center">
                                         <i class="ni ni-box-2 text-white opacity-10"></i>
@@ -194,7 +205,8 @@
                                         class="btn btn-link btn-icon-only btn-rounded btn-sm text-dark icon-move-right my-auto"><i
                                             class="ni ni-bold-right" aria-hidden="true"></i></button>
                                 </div>
-                            </li>
+                            </li> -->
+
                         </ul>
                     </div>
                 </div>

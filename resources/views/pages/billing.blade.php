@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="row">
-                    <div class="col-xl-6 mb-xl-0 mb-4">
+                    <!-- <div class="col-xl-6 mb-xl-0 mb-4">
                         <div class="card bg-transparent shadow-xl">
                             <div class="overflow-hidden position-relative border-radius-xl"
                                 style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/card-visa.jpg');">
@@ -33,7 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-xl-6">
                         <div class="row">
                             <div class="col-md-6">
@@ -45,10 +45,14 @@
                                         </div>
                                     </div>
                                     <div class="card-body pt-0 p-3 text-center">
-                                        <h6 class="text-center mb-0">Salary</h6>
-                                        <span class="text-xs">Belong Interactive</span>
-                                        <hr class="horizontal dark my-3">
-                                        <h5 class="mb-0">+$2000</h5>
+                                        <h6 class="text-center mb-0">Matematicas</h6>
+                                        <span class="text-xs">Frank dennis masa castillo</span>
+                                        <!-- <hr class="horizontal dark my-3">
+                                        <h5 class="mb-0">Lunes-Viernes</h5> -->
+                                        <div class="d-flex align-items-center text-sm">
+                                            <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-5"><i
+                                                    class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -61,16 +65,65 @@
                                         </div>
                                     </div>
                                     <div class="card-body pt-0 p-3 text-center">
-                                        <h6 class="text-center mb-0">Paypal</h6>
-                                        <span class="text-xs">Freelance Payment</span>
-                                        <hr class="horizontal dark my-3">
-                                        <h5 class="mb-0">$455.00</h5>
+                                        <h6 class="text-center mb-0">curso</h6>
+                                        <span class="text-xs">Profesor</span>
+                                        <!-- <hr class="horizontal dark my-3">
+                                        <h5 class="mb-0">$455.00</h5> -->
+                                    </div>
+                                </div>
+                            </div></br></br>
+                            <div class="col-md-6 mt-md-4 mt-4">
+                                <div class="card">
+                                    <div class="card-header mx-4 p-3 text-center">
+                                        <div
+                                            class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                            <i class="fab fa-paypal opacity-10"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-0 p-3 text-center">
+                                        <h6 class="text-center mb-0">curso</h6>
+                                        <span class="text-xs">Profesor</span>
+                                        <!-- <hr class="horizontal dark my-3">
+                                        <h5 class="mb-0">$455.00</h5> -->
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-md-6 mt-md-4 mt-4">
+                                <div class="card">
+                                    <div class="card-header mx-4 p-3 text-center">
+                                        <div
+                                            class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                            <i class="fab fa-paypal opacity-10"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-0 p-3 text-center">
+                                        <h6 class="text-center mb-0">curso</h6>
+                                        <span class="text-xs">Profesor</span>
+                                        <!-- <hr class="horizontal dark my-3">
+                                        <h5 class="mb-0">$455.00</h5> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-md-4 mt-4">
+                                <div class="card">
+                                    <div class="card-header mx-4 p-3 text-center">
+                                        <div
+                                            class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                            <i class="fab fa-paypal opacity-10"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-0 p-3 text-center">
+                                        <h6 class="text-center mb-0">curso</h6>
+                                        <span class="text-xs">Profesor</span>
+                                        <!-- <hr class="horizontal dark my-3">
+                                        <h5 class="mb-0">$455.00</h5> -->
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
-                    <div class="col-md-12 mb-lg-0 mb-4">
+                    <!-- <div class="col-md-12 mb-lg-0 mb-4">
                         <div class="card mt-4">
                             <div class="card-header pb-0 p-3">
                                 <div class="row">
@@ -108,10 +161,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-            <div class="col-lg-4">
+            <!-- <div class="col-lg-4">
                 <div class="card h-100">
                     <div class="card-header pb-0 p-3">
                         <div class="row">
@@ -184,8 +237,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
+        </div> -->
+        <!--<div class="row">
             <div class="col-md-7 mt-4">
                 <div class="card">
                     <div class="card-header pb-0 px-3">
@@ -261,7 +314,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-body pt-4 p-3">
+                     <div class="card-body pt-4 p-3">
                         <h6 class="text-uppercase text-body text-xs font-weight-bolder mb-3">Newest</h6>
                         <ul class="list-group">
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
@@ -352,10 +405,10 @@
                                 </div>
                             </li>
                         </ul>
-                    </div>
+                    </div> 
                 </div>
             </div>
-        </div>
+        </div>-->
         @include('layouts.footers.auth.footer')
     </div>
 @endsection

@@ -4,6 +4,7 @@
     @include('layouts.navbars.auth.topnav', ['title' => 'Inicio'])
     <div class="container-fluid py-4">
         <div class="row">
+            
             <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
                 <div class="card">
                     <div class="card-body p-3">
@@ -16,15 +17,14 @@
                                     </h5> -->
                                     <!-- NUMERO DE TODOS LOS USUARIOS -->
                                     <p class="mb-0">
-                                        <span class="text-success text-sm font-weight-bolder">+55%</span>
-                                        since yesterday
+                                        <span class="text-success text-sm font-weight-bolder">1500</span>
                                     </p>
                                     <!-- AND NUMERO DE TODOS LOS USUARIOS -->
                                 </div>
                             </div>
                             <div class="col-4 text-end">
                                 <div class="icon icon-shape bg-gradient-primary shadow-primary text-center rounded-circle">
-                                    <i class="ni ni-money-coins text-lg opacity-10" aria-hidden="true"></i>
+                                    <i class="fas fa-users -lg opacity-10" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </div>
@@ -44,15 +44,14 @@
                                     </h5> -->
                                     <!-- NUMERO DE TODOS LOS USUARIOS -->
                                     <p class="mb-0">
-                                        <span class="text-success text-sm font-weight-bolder">+3%</span>
-                                        since last week
+                                        <span class="text-success text-sm font-weight-bolder">5</span>
                                     </p>
                                     <!-- AND NUMERO DE TODOS LOS USUARIOS -->
                                 </div>
                             </div>
                             <div class="col-4 text-end">
                                 <div class="icon icon-shape bg-gradient-danger shadow-danger text-center rounded-circle">
-                                    <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
+                                    <i class="fas fa-user-lock text-lg opacity-10" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </div>
@@ -72,15 +71,14 @@
                                     </h5> -->
                                     <!-- NUMERO DE TODOS LOS USUARIOS -->
                                     <p class="mb-0">
-                                        <span class="text-danger text-sm font-weight-bolder">-2%</span>
-                                        since last 
+                                        <span class="text-success text-sm font-weight-bolder">80</span>
                                     </p>
                                     <!-- AND NUMERO DE TODOS LOS USUARIOS -->
                                 </div>
                             </div>
                             <div class="col-4 text-end">
                                 <div class="icon icon-shape bg-gradient-success shadow-success text-center rounded-circle">
-                                    <i class="ni ni-paper-diploma text-lg opacity-10" aria-hidden="true"></i>
+                                    <i class="fas fa-chalkboard-teacher text-lg opacity-10" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </div>
@@ -100,14 +98,14 @@
                                     </h5> -->
                                     <!-- NUMERO DE TODOS LOS USUARIOS -->
                                     <p class="mb-0">
-                                        <span class="text-success text-sm font-weight-bolder">+5%</span> than last month
+                                        <span class="text-success text-sm font-weight-bolder">1000</span>
                                     </p>
                                     <!-- AND NUMERO DE TODOS LOS USUARIOS -->
                                 </div>
                             </div>
                             <div class="col-4 text-end">
                                 <div class="icon icon-shape bg-gradient-warning shadow-warning text-center rounded-circle">
-                                    <i class="ni ni-cart text-lg opacity-10" aria-hidden="true"></i>
+                                    <i class="fas fa-user-graduate text-lg opacity-10" aria-hidden="true"></i>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +141,7 @@
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
                                     <div class="icon icon-shape icon-sm me-3 bg-gradient-dark shadow text-center">
-                                        <i class="ni ni-mobile-button text-white opacity-10"></i>
+                                        <i class="far fa-smile text-white opacity-10"></i>
                                     </div>
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Aprovados</h6>
@@ -159,7 +157,7 @@
                             <li class="list-group-item border-0 d-flex justify-content-between ps-0 mb-2 border-radius-lg">
                                 <div class="d-flex align-items-center">
                                     <div class="icon icon-shape icon-sm me-3 bg-gradient-dark shadow text-center">
-                                        <i class="ni ni-tag text-white opacity-10"></i>
+                                        <i class="far fa-frown text-white opacity-10"></i>
                                     </div>
                                     <div class="d-flex flex-column">
                                         <h6 class="mb-1 text-dark text-sm">Desaprovados</h6>

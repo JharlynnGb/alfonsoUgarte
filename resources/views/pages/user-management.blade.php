@@ -11,7 +11,7 @@
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-sm ms-auto" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
-                            Nuevo
+                            NUEVO
                         </button>
                     </div>
                 </div>
@@ -185,4 +185,5 @@
                 </div>
             </div>
         </div>
+    </div>
     @endsection

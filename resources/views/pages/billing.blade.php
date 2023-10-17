@@ -1,12 +1,307 @@
 @extends('layouts.app', ['class' => 'g-sidenav-show bg-gray-100'])
 
 @section('content')
-    @include('layouts.navbars.auth.topnav', ['title' => 'Billing'])
+@include('layouts.navbars.auth.topnav', ['title' => 'Cursos'])
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-xl-3 col-sm-6 mb-xl-5 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Matematica</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-calculator opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Comunicación</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fa fa-book opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Historia</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-atlas opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Computación</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-laptop opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Curso</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-landmark opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Curso</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-landmark opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Curso</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-landmark opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Curso</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-landmark opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid py-4">
         <div class="row">
+            <div class="col-xl-3 col-sm-6 mb-xl-5 mb-4">
+                <div class="card">
+                    <div class="card-body p-3">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="numbers">
+                                    <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Curso</h6>
+                                    <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                    <p class="mb-0">
+                                        <span class="text-xs">Profesor</span>
+                                    </p>
+                                    <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                                </div>
+                            </div>
+                            <div class="col-4 text-end">
+                                <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                    <i class="fas fa-landmark opacity-10"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Curso</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-landmark opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Curso</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-landmark opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="numbers">
+                                <h6 class="text-sm mb-0 text-uppercase font-weight-bold">Curso</h6>
+                                <!-- NUMERO DE TODOS LOS USUARIOS -->
+                                <p class="mb-0">
+                                    <span class="text-xs">Profesor</span>
+                                </p>
+                                <!-- AND NUMERO DE TODOS LOS USUARIOS -->
+                            </div>
+                        </div>
+                        <div class="col-4 text-end">
+                            <div class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                <i class="fas fa-landmark opacity-10"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- <div class="container-fluid py-4">
+        <div class="row">
             <div class="col-lg-8">
-                <div class="row">
-                    <!-- <div class="col-xl-6 mb-xl-0 mb-4">
+                <div class="row"> -->
+    <!-- <div class="col-xl-6 mb-xl-0 mb-4">
                         <div class="card bg-transparent shadow-xl">
                             <div class="overflow-hidden position-relative border-radius-xl"
                                 style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/argon-dashboard-pro/assets/img/card-visa.jpg');">
@@ -34,8 +329,10 @@
                             </div>
                         </div>
                     </div> -->
-                    <div class="col-xl-6">
+
+    <!-- <div class="col-xl-6">
                         <div class="row">
+
                             <div class="col-md-6">
                                 <div class="card">
                                     <div class="card-header mx-4 p-3 text-center">
@@ -47,8 +344,6 @@
                                     <div class="card-body pt-0 p-3 text-center">
                                         <h6 class="text-center mb-0">Matematicas</h6>
                                         <span class="text-xs">Frank dennis masa castillo</span>
-                                        <!-- <hr class="horizontal dark my-3">
-                                        <h5 class="mb-0">Lunes-Viernes</h5> -->
                                         <div class="d-flex align-items-center text-sm">
                                             <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-5"><i
                                                     class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
@@ -56,6 +351,7 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="col-md-6 mt-md-0 mt-4">
                                 <div class="card">
                                     <div class="card-header mx-4 p-3 text-center">
@@ -67,24 +363,10 @@
                                     <div class="card-body pt-0 p-3 text-center">
                                         <h6 class="text-center mb-0">curso</h6>
                                         <span class="text-xs">Profesor</span>
-                                        <!-- <hr class="horizontal dark my-3">
-                                        <h5 class="mb-0">$455.00</h5> -->
-                                    </div>
-                                </div>
-                            </div></br></br>
-                            <div class="col-md-6 mt-md-4 mt-4">
-                                <div class="card">
-                                    <div class="card-header mx-4 p-3 text-center">
-                                        <div
-                                            class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
-                                            <i class="fab fa-paypal opacity-10"></i>
+                                        <div class="d-flex align-items-center text-sm">
+                                            <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-5"><i
+                                                    class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
                                         </div>
-                                    </div>
-                                    <div class="card-body pt-0 p-3 text-center">
-                                        <h6 class="text-center mb-0">curso</h6>
-                                        <span class="text-xs">Profesor</span>
-                                        <!-- <hr class="horizontal dark my-3">
-                                        <h5 class="mb-0">$455.00</h5> -->
                                     </div>
                                 </div>
                             </div>
@@ -99,8 +381,10 @@
                                     <div class="card-body pt-0 p-3 text-center">
                                         <h6 class="text-center mb-0">curso</h6>
                                         <span class="text-xs">Profesor</span>
-                                        <!-- <hr class="horizontal dark my-3">
-                                        <h5 class="mb-0">$455.00</h5> -->
+                                        <div class="d-flex align-items-center text-sm">
+                                            <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-5"><i
+                                                    class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -115,15 +399,35 @@
                                     <div class="card-body pt-0 p-3 text-center">
                                         <h6 class="text-center mb-0">curso</h6>
                                         <span class="text-xs">Profesor</span>
-                                        <!-- <hr class="horizontal dark my-3">
-                                        <h5 class="mb-0">$455.00</h5> -->
+                                        <div class="d-flex align-items-center text-sm">
+                                            <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-5"><i
+                                                    class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-md-4 mt-4">
+                                <div class="card">
+                                    <div class="card-header mx-4 p-3 text-center">
+                                        <div
+                                            class="icon icon-shape icon-lg bg-gradient-primary shadow text-center border-radius-lg">
+                                            <i class="fab fa-paypal opacity-10"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-body pt-0 p-3 text-center">
+                                        <h6 class="text-center mb-0">curso</h6>
+                                        <span class="text-xs">Profesor</span>
+                                        <div class="d-flex align-items-center text-sm">
+                                            <button class="btn btn-link text-dark text-sm mb-0 px-0 ms-5"><i
+                                                    class="fas fa-file-pdf text-lg me-1"></i> PDF</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             
                         </div>
-                    </div>
-                    <!-- <div class="col-md-12 mb-lg-0 mb-4">
+                    </div> -->
+    <!-- <div class="col-md-12 mb-lg-0 mb-4">
                         <div class="card mt-4">
                             <div class="card-header pb-0 p-3">
                                 <div class="row">
@@ -161,10 +465,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div> 
                 </div>
-            </div>
-            <!-- <div class="col-lg-4">
+            </div>-->
+    <!-- <div class="col-lg-4">
                 <div class="card h-100">
                     <div class="card-header pb-0 p-3">
                         <div class="row">
@@ -238,7 +542,7 @@
                 </div>
             </div>
         </div> -->
-        <!--<div class="row">
+    <!--<div class="row">
             <div class="col-md-7 mt-4">
                 <div class="card">
                     <div class="card-header pb-0 px-3">
@@ -409,6 +713,6 @@
                 </div>
             </div>
         </div>-->
-        @include('layouts.footers.auth.footer')
-    </div>
+    @include('layouts.footers.auth.footer')
+</div>
 @endsection

@@ -37,19 +37,19 @@
             </a>
             <!-- Sidenav Type -->
             <div class="mt-3">
-                <h6 class="mb-0">Sidenav Type</h6>
-                <p class="text-sm">Choose between 2 different sidenav types.</p>
+                <h6 class="mb-0">Barra Lateral</h6>
+                <p class="text-sm">Elija entre 2 tipos diferentes de navegación lateral</p>
             </div>
             <div class="d-flex">
                 <button class="btn bg-gradient-primary w-100 px-3 mb-2 active me-2" data-class="bg-white"
-                    onclick="sidebarType(this)">White</button>
+                    onclick="sidebarType(this)">Blanco</button>
                 <button class="btn bg-gradient-primary w-100 px-3 mb-2" data-class="bg-default"
-                    onclick="sidebarType(this)">Dark</button>
+                    onclick="sidebarType(this)">Oscuro</button>
             </div>
-            <p class="text-sm d-xl-none d-block mt-2">Puedes modificar el tipo de navegación lateral solo en la visualización del escritorio.</p>
+            <!-- <p class="text-sm d-xl-none d-block mt-2">Puedes modificar el tipo de navegación lateral solo en la visualización del escritorio.</p> -->
             <!-- Navbar Fixed -->
             <div class="d-flex my-3">
-                <h6 class="mb-0">Navbar Fixed</h6>
+                <h6 class="mb-0">Barra de Navegación</h6>
                 <div class="form-check form-switch ps-0 ms-auto my-auto">
                     <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed"
                         onclick="navbarFixed(this)">
@@ -57,7 +57,7 @@
             </div>
             <hr class="horizontal dark my-sm-4">
             <div class="mt-2 mb-5 d-flex">
-                <h6 class="mb-0">Light / Dark</h6>
+                <h6 class="mb-0">Claro / Oscuro</h6>
                 <div class="form-check form-switch ps-0 ms-auto my-auto">
                     <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version"
                         onclick="darkMode(this)">

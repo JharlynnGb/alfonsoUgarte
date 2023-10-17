@@ -7,9 +7,9 @@
                     <script>
                         document.write(new Date().getFullYear())
                     </script> I.E <i class="fa fa-heart"> </i>
-                    <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank"> Alfonso Ugarte</a>
+                    <a href="#" class="font-weight-bold" target="_blank"> Alfonso Ugarte</a>
                     &
-                    <a href="https://www.updivision.com" class="font-weight-bold" target="_blank">Nombre</a>
+                    <a href="#" class="font-weight-bold" target="_blank">Nombre</a>
                 </div>
             </div>
             <!-- <div class="col-lg-6">

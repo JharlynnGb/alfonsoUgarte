@@ -37,7 +37,7 @@
                     href="{{ route('page', ['page' => 'user-management']) }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-bullet-list-67 text-dark text-sm opacity-10"></i>
+                        <i class="far fa-address-card text-dark text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Usuarios</span>
                 </a>
@@ -47,7 +47,7 @@
                     href="{{ route('page', ['page' => 'tables']) }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
+                        <i class="fas fa-user-graduate text-warning text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Estudiantes</span>
                 </a>
@@ -57,29 +57,29 @@
                     href="{{ route('page', ['page' => 'billing']) }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
+                        <i class="fas fa-book text-success text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Cursos</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Route::currentRouteName() == 'virtual-reality' ? 'active' : '' }}"
-                    href="{{ route('virtual-reality') }}">
+                <a class="nav-link {{ Route::currentRouteName() == 'grade' ? 'active' : '' }}"
+                    href="{{ route('grade') }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-app text-info text-sm opacity-10"></i>
+                        <i class="fas fa-file-alt text-info text-sm opacity-10"></i>
                     </div>
-                    <span class="nav-link-text ms-1">Virtual Reality</span>
+                    <span class="nav-link-text ms-1">Notas</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Route::currentRouteName() == 'rtl' ? 'active' : '' }}"
-                    href="{{ route('rtl') }}">
+                <a class="nav-link {{ Route::currentRouteName() == 'reminder' ? 'active' : '' }}"
+                    href="{{ route('reminder') }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-world-2 text-danger text-sm opacity-10"></i>
+                        <i class="fas fa-thumbtack	 text-danger text-sm opacity-10"></i>
                     </div>
-                    <span class="nav-link-text ms-1">RTL</span>
+                    <span class="nav-link-text ms-1">Recordatorio</span>
                 </a>
             </li>
         </ul>
